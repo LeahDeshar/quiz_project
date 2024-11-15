@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher_background"
+        android:label="QuizApplication"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".Sportsplay"
+            android:exported="false"
+            android:label="Sport "
+            android:parentActivityName=".Sportsplay">
+
+        </activity>
+        <activity
+            android:name=".Totaluser"
+            android:exported="false"
+            android:label="Total USer"
+            android:parentActivityName=".Totaluser"></activity>
+        <activity
+            android:name=".profile.userpasswordchange"
+            android:exported="false" />
+        <activity
+            android:name=".Mathplay"
+            android:exported="false" />
+        <activity
+            android:name=".addquestion.Update"
+            android:exported="false"
+            android:parentActivityName=".addquestion.Update" />
+        <activity
+            android:name=".FinalResultActivity"
+            android:exported="false"
+            android:theme="@style/Home.QuizApplication2" />
+        <activity
+            android:name=".History"
+            android:exported="false"
+            android:label="History"
+            android:parentActivityName=".History" />
+        <activity
+            android:name=".play"
+            android:exported="false"
+            android:parentActivityName=".play" />
+        <activity
+            android:name=".view.Playquestion"
+            android:exported="false"
+            android:parentActivityName=".view.Playquestion" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:theme="@style/Home.QuizApplication2" />
+        <activity
+            android:name=".profile.userprofile"
+            android:exported="false"
+            android:label="User Profile"
+            android:parentActivityName=".profile.userprofile" />
+        <activity
+            android:name=".IT"
+            android:exported="true"
+            android:label="IT question"
+            android:parentActivityName=".IT" />
+        <activity
+            android:name=".Gkplay"
+            android:exported="true"
+            android:label="Gk question"
+            android:parentActivityName=".Gkplay" />
+        <activity
+            android:name=".view.gkquestion"
+            android:exported="true"
+            android:label="Gk question"
+            android:parentActivityName=".view.gkquestion" />
+        <activity
+            android:name=".view.Itquestion"
+            android:exported="true"
+            android:label="IT Question"
+            android:parentActivityName=".view.Itquestion" />
+        <activity
+            android:name=".view.Mathquestion"
+            android:exported="true"
+            android:label="Math Question"
+            android:parentActivityName=".view.Mathquestion" />
+        <activity
+            android:name=".view.Viewselecttopic"
+            android:exported="true"
+            android:label="Select Topic"
+            android:parentActivityName=".view.Viewselecttopic" />
+        <activity
+            android:name=".addquestion.ITaddquestion"
+            android:exported="true"
+            android:label="Add Question"
+            android:parentActivityName=".addquestion.ITaddquestion" />
+        <activity
+            android:name=".addquestion.sportaddquestion"
+            android:exported="true"
+            android:label="Add Question"
+            android:parentActivityName=".addquestion.sportaddquestion" />
+        <activity
+            android:name=".addquestion.Gkaddquestion"
+            android:exported="true"
+            android:label="Add Question"
+            android:parentActivityName=".addquestion.Gkaddquestion" /> <!-- <activity -->
+        <!-- android:name=".play" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="Sports" -->
+        <!-- android:parentActivityName=".play" /> -->
+        <activity
+            android:name=".view.sportquestion"
+            android:exported="true"
+            android:label="Sport Question"
+            android:parentActivityName=".view.Viewselecttopic" />
+        <activity
+            android:name=".addquestion.Mathaddquestion"
+            android:exported="true"
+            android:label="Add Question"
+            android:parentActivityName=".addquestion.Mathaddquestion" />
+        <activity
+            android:name=".Topic"
+            android:exported="true"
+            android:label="Topic"
+            android:parentActivityName=".Topic" />
+        <activity
+            android:name=".Adminpanel"
+            android:exported="true"
+            android:label="Admin Panel"
+            android:parentActivityName=".Adminpanel" />
+        <activity
+            android:name=".admin.adminlogin"
+            android:exported="true"
+            android:label="Admin login"
+            android:parentActivityName=".admin.adminlogin" />
+        <activity
+            android:name=".login.userregister"
+            android:exported="true"
+            android:label="User Register"
+            android:parentActivityName=".login.userregister" />
+        <activity
+            android:name=".login.userlogin"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

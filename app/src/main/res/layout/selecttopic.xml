@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgound">
+    <TextView
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:text="Math"
+        android:background="@drawable/edttxt_background"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="60sp"
+        android:textAlignment="viewStart"
+        android:id="@+id/history"
+        />
+    <TextView
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:text="Gk"
+        android:background="@drawable/edttxt_background"
+
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:textAlignment="viewStart"
+        android:id="@+id/gk"
+        />
+    <TextView
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:text="Sports"
+        android:background="@drawable/edttxt_background"
+
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:textAlignment="viewStart"
+        android:id="@+id/sports"
+        />
+    <TextView
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:text="IT"
+        android:background="@drawable/edttxt_background"
+
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:textAlignment="viewStart"
+        android:id="@+id/it"
+        />
+    <TextView
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:background="@drawable/edttxt_background"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:textAlignment="viewStart"
+        android:id="@+id/play"
+        />
+
+
+
+
+
+
+
+</LinearLayout>

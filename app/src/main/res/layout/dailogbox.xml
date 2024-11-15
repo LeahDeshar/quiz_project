@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE BOARD"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+     />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total points"
+        android:id="@+id/point"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginRight="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correct"
+        android:id="@+id/correct"
+        android:textColor="#44F44B"
+
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="0sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginRight="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wrong"
+        android:id="@+id/wrong"
+        android:textColor="#F32B2B"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginRight="20sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        android:textSize="35sp"
+        style="@style/btnStyle"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginBottom="0sp"
+        android:id="@+id/no"
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+
+            android:text="Restart"
+            android:textSize="35sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:id="@+id/restart"
+            android:layout_toRightOf="@id/no"
+            style="@style/btnStyle"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="50sp"
+            />
+
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:hint="Enter question ID to update"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:id="@+id/id"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:hint="Add question"
+        android:textSize="20sp"
+        android:layout_below="@id/id"
+        android:id="@+id/addquestion"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_below="@id/addquestion"
+        android:hint="Option A"
+        android:textSize="20sp"
+        android:id="@+id/OptionA"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_below="@id/OptionA"
+        android:hint="Option B"
+        android:textSize="20sp"
+        android:id="@+id/OptionB"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_below="@id/OptionB"
+        android:hint="Option C"
+        android:textSize="20sp"
+        android:id="@+id/OptionC"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_below="@id/OptionC"
+        android:hint="Option D"
+        android:textSize="20sp"
+        android:id="@+id/OptionD"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_below="@id/OptionD"
+        android:hint="Answer"
+        android:textSize="20sp"
+        android:id="@+id/Answer"
+        />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="update "
+            android:textSize="30sp"
+android:layout_below="@id/Answer"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/btnupdate"
+            android:layout_marginBottom="5sp"
+            />
+
+
+
+
+</RelativeLayout>
+
+
+

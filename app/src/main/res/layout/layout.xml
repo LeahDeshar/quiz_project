@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgound"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        app:srcCompat="@drawable/quiz1"
+        android:id="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Quiz App"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:id="@+id/text"
+        android:textColor="#131313"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:layout_below="@id/text"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:id="@+id/started"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="@drawable/btn_background"/>
+
+
+</RelativeLayout>

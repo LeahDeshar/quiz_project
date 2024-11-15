@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#38B5FE">
+    <Button
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:backgroundTint="@color/white"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="60sp"
+        android:textAlignment="viewStart"
+        android:id="@+id/history"
+        />
+    <Button
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:text="Gk"
+        android:backgroundTint="@color/white"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="0sp"
+        android:textAlignment="viewStart"
+        android:id="@+id/gk"
+        />
+    <Button
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:text="Sports"
+        android:backgroundTint="@color/white"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="0sp"
+        android:textAlignment="viewStart"
+        android:id="@+id/sports"
+        />
+    <Button
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:text="IT"
+        android:backgroundTint="@color/white"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="0sp"
+        android:textAlignment="viewStart"
+        android:id="@+id/it"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
